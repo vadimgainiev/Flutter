@@ -132,7 +132,7 @@ class _Layout2State extends State<Layout2> {
                                 color: Colors.white,
                               ),
                               borderRadius:
-                              const BorderRadius.all(Radius.circular(15.0)),
+                                  const BorderRadius.all(Radius.circular(15.0)),
                             ),
                             child: const Image(
                               //fit: BoxFit.fill,
@@ -168,16 +168,16 @@ class _Layout2State extends State<Layout2> {
                                       const Image(
                                           height: 15,
                                           image:
-                                          AssetImage('assets/heart.png')),
+                                              AssetImage('assets/heart.png')),
                                       Expanded(
                                           flex: 3,
                                           child: Padding(
                                             padding:
-                                            const EdgeInsets.only(left: 5),
+                                                const EdgeInsets.only(left: 5),
                                             child: Text('9 Sessions',
                                                 style: TextStyle(
                                                     fontFamily:
-                                                    'Plus Jakarta Sans',
+                                                        'Plus Jakarta Sans',
                                                     fontWeight: FontWeight.w500,
                                                     fontSize: 12.0,
                                                     color: Colors.black
@@ -185,7 +185,7 @@ class _Layout2State extends State<Layout2> {
                                           )),
                                       Padding(
                                         padding:
-                                        const EdgeInsets.only(right: 10.0),
+                                            const EdgeInsets.only(right: 10.0),
                                         child: Text('Start >',
                                             style: TextStyle(
                                                 fontFamily: 'Plus Jakarta Sans',
@@ -217,13 +217,13 @@ class _Layout2State extends State<Layout2> {
                                 onPressed: () {},
                                 style: ButtonStyle(
                                   shape: MaterialStateProperty.all<
-                                      RoundedRectangleBorder>(
+                                          RoundedRectangleBorder>(
                                       RoundedRectangleBorder(
                                           borderRadius:
-                                          BorderRadius.circular(10))),
+                                              BorderRadius.circular(10))),
                                   backgroundColor:
-                                  MaterialStateProperty.all<Color>(
-                                      Colors.white),
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.white),
                                   minimumSize: MaterialStateProperty.all<Size>(
                                       const Size(155, 160)),
                                   maximumSize: MaterialStateProperty.all<Size>(
@@ -236,14 +236,14 @@ class _Layout2State extends State<Layout2> {
                                         alignment: Alignment.centerLeft,
                                         child: Column(
                                           crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                              CrossAxisAlignment.start,
                                           children: [
                                             const SizedBox(height: 10),
                                             Text(
                                               s1.title,
                                               style: const TextStyle(
                                                   fontFamily:
-                                                  'Plus Jakarta Sans',
+                                                      'Plus Jakarta Sans',
                                                   fontWeight: FontWeight.w700,
                                                   fontSize: 16.0,
                                                   color: Colors.black),
@@ -252,15 +252,15 @@ class _Layout2State extends State<Layout2> {
                                             Text(s1.author,
                                                 style: TextStyle(
                                                     fontFamily:
-                                                    'Plus Jakarta Sans',
+                                                        'Plus Jakarta Sans',
                                                     fontWeight: FontWeight.w400,
                                                     fontSize: 13.0,
                                                     color: Colors.black
                                                         .withOpacity(0.5))),
                                             Padding(
                                               padding:
-                                              const EdgeInsets.symmetric(
-                                                  vertical: 10.0),
+                                                  const EdgeInsets.symmetric(
+                                                      vertical: 10.0),
                                               child: Align(
                                                 alignment: Alignment.bottomLeft,
                                                 child: Row(
@@ -273,34 +273,34 @@ class _Layout2State extends State<Layout2> {
                                                         flex: 3,
                                                         child: Padding(
                                                           padding:
-                                                          const EdgeInsets
-                                                              .only(
-                                                              left: 5),
+                                                              const EdgeInsets
+                                                                      .only(
+                                                                  left: 5),
                                                           child: Text(
                                                               s1.content,
                                                               style: TextStyle(
                                                                   fontFamily:
-                                                                  'Plus Jakarta Sans',
+                                                                      'Plus Jakarta Sans',
                                                                   fontWeight:
-                                                                  FontWeight
-                                                                      .w500,
+                                                                      FontWeight
+                                                                          .w500,
                                                                   fontSize:
-                                                                  12.0,
+                                                                      12.0,
                                                                   color: Colors
                                                                       .black
                                                                       .withOpacity(
-                                                                      0.5))),
+                                                                          0.5))),
                                                         )),
                                                     Text('Start >',
                                                         style: TextStyle(
                                                             fontFamily:
-                                                            'Plus Jakarta Sans',
+                                                                'Plus Jakarta Sans',
                                                             fontWeight:
-                                                            FontWeight.w500,
+                                                                FontWeight.w500,
                                                             fontSize: 12.0,
                                                             color: Colors.black
                                                                 .withOpacity(
-                                                                0.5)))
+                                                                    0.5)))
                                                   ],
                                                 ),
                                               ),
@@ -327,13 +327,13 @@ class _Layout2State extends State<Layout2> {
                                 onPressed: () {},
                                 style: ButtonStyle(
                                   shape: MaterialStateProperty.all<
-                                      RoundedRectangleBorder>(
+                                          RoundedRectangleBorder>(
                                       RoundedRectangleBorder(
                                           borderRadius:
-                                          BorderRadius.circular(10))),
+                                              BorderRadius.circular(10))),
                                   backgroundColor:
-                                  MaterialStateProperty.all<Color>(
-                                      Colors.white),
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.white),
                                   minimumSize: MaterialStateProperty.all<Size>(
                                       const Size(155, 160)),
                                   maximumSize: MaterialStateProperty.all<Size>(
@@ -346,14 +346,14 @@ class _Layout2State extends State<Layout2> {
                                         alignment: Alignment.centerLeft,
                                         child: Column(
                                           crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                              CrossAxisAlignment.start,
                                           children: [
                                             const SizedBox(height: 10),
                                             Text(
                                               s2.title,
                                               style: const TextStyle(
                                                   fontFamily:
-                                                  'Plus Jakarta Sans',
+                                                      'Plus Jakarta Sans',
                                                   fontWeight: FontWeight.w700,
                                                   fontSize: 16.0,
                                                   color: Colors.black),
@@ -362,15 +362,15 @@ class _Layout2State extends State<Layout2> {
                                             Text(s2.author,
                                                 style: TextStyle(
                                                     fontFamily:
-                                                    'Plus Jakarta Sans',
+                                                        'Plus Jakarta Sans',
                                                     fontWeight: FontWeight.w400,
                                                     fontSize: 13.0,
                                                     color: Colors.black
                                                         .withOpacity(0.5))),
                                             Padding(
                                               padding:
-                                              const EdgeInsets.symmetric(
-                                                  vertical: 10.0),
+                                                  const EdgeInsets.symmetric(
+                                                      vertical: 10.0),
                                               child: Row(
                                                 children: [
                                                   const Image(
@@ -381,31 +381,31 @@ class _Layout2State extends State<Layout2> {
                                                       flex: 3,
                                                       child: Padding(
                                                         padding:
-                                                        const EdgeInsets
-                                                            .only(left: 5),
+                                                            const EdgeInsets
+                                                                .only(left: 5),
                                                         child: Text(s2.content,
                                                             style: TextStyle(
                                                                 fontFamily:
-                                                                'Plus Jakarta Sans',
+                                                                    'Plus Jakarta Sans',
                                                                 fontWeight:
-                                                                FontWeight
-                                                                    .w500,
+                                                                    FontWeight
+                                                                        .w500,
                                                                 fontSize: 12.0,
                                                                 color: Colors
                                                                     .black
                                                                     .withOpacity(
-                                                                    0.5))),
+                                                                        0.5))),
                                                       )),
                                                   Text('Start >',
                                                       style: TextStyle(
                                                           fontFamily:
-                                                          'Plus Jakarta Sans',
+                                                              'Plus Jakarta Sans',
                                                           fontWeight:
-                                                          FontWeight.w500,
+                                                              FontWeight.w500,
                                                           fontSize: 12.0,
                                                           color: Colors.black
                                                               .withOpacity(
-                                                              0.5)))
+                                                                  0.5)))
                                                 ],
                                               ),
                                             ),

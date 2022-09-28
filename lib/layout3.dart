@@ -46,13 +46,13 @@ class _Layout3State extends State<Layout3> {
                         onPressed: () {},
                         style: ButtonStyle(
                             shape: MaterialStateProperty.all<
-                                RoundedRectangleBorder>(
+                                    RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(30))),
                             fixedSize: MaterialStateProperty.all<Size>(
                                 const Size.fromHeight(50)),
                             backgroundColor:
-                            MaterialStateProperty.all<Color>(Colors.white)),
+                                MaterialStateProperty.all<Color>(Colors.white)),
                         child: const Text('Sign In With Apple',
                             style: TextStyle(
                               fontFamily: 'Plus Jakarta Sans',
@@ -70,7 +70,7 @@ class _Layout3State extends State<Layout3> {
                         onPressed: () {},
                         style: ButtonStyle(
                             shape: MaterialStateProperty.all<
-                                RoundedRectangleBorder>(
+                                    RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(30))),
                             fixedSize: MaterialStateProperty.all<Size>(
