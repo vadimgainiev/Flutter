@@ -58,6 +58,27 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/
+    fonts:
+      - family: Plus Jakarta Sans
+        fonts:
+          - asset: fonts/PlusJakartaSans-Bold.ttf
+          - asset: fonts/PlusJakartaSans-BoldItalic.ttf
+          - asset: fonts/PlusJakartaSans-ExtraBold.ttf
+          - asset: fonts/PlusJakartaSans-ExtraBoldItalic.ttf
+          - asset: fonts/PlusJakartaSans-ExtraLight.ttf
+          - asset: fonts/PlusJakartaSans-ExtraLightItalic.ttf
+          - asset: fonts/PlusJakartaSans-Italic.ttf
+          - asset: fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf
+          - asset: fonts/PlusJakartaSans-Light.ttf
+          - asset: fonts/PlusJakartaSans-LightItalic.ttf
+          - asset: fonts/PlusJakartaSans-Medium.ttf
+          - asset: fonts/PlusJakartaSans-MediumItalic.ttf
+          - asset: fonts/PlusJakartaSans-Regular.ttf
+          - asset: fonts/PlusJakartaSans-SemiBold.ttf
+          - asset: fonts/PlusJakartaSans-SemiBoldItalic.ttf
+          - asset: fonts/PlusJakartaSans-VariableFont_wght.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
