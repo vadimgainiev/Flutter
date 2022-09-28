@@ -1,16 +1,8 @@
-# practice1_layouts
+# Практическая работа №1
 
-A new Flutter project.
+## Создание макетов во фреймворке Flutter
 
-## Getting Started
+### Цель работы: перенести макеты из Figma во Flutter
+### Ход работы:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Вывод: за время выполнения практической работы были получены навыки работы с конетйнерами Flutter и встроенными виджетами для создания дизайна приложения и его элементов.
