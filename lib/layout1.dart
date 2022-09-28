@@ -11,7 +11,7 @@ class _Layout1State extends State<Layout1> {
   List<Session> sessions = [
     Session('Sweet Memories', Colors.blue),
     Session('A Day Dream', const Color.fromRGBO(3, 158, 162, 1)),
-    Session('Sweet Memories', Colors.orange)
+    Session('Mind Explore', Colors.orange)
   ];
 
   @override
