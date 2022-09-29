@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Layout2 extends StatefulWidget {
-  const Layout2({Key? key}) : super(key: key);
+class SearchRecommendations extends StatefulWidget {
+  const SearchRecommendations({Key? key}) : super(key: key);
 
   @override
-  State<Layout2> createState() => _Layout2State();
+  State<SearchRecommendations> createState() => _SearchRecommendationsState();
 }
 
-class _Layout2State extends State<Layout2> {
+class _SearchRecommendationsState extends State<SearchRecommendations> {
   List<Session> sessions1 = [
     Session('The Sleep Hour', Image.asset('assets/the_sleep_hour.png'),
         'Ashna Mukherjee', '3 Sessions'),

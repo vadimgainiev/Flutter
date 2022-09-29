@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Layout1 extends StatefulWidget {
-  const Layout1({Key? key}) : super(key: key);
+class SessionPlaylist extends StatefulWidget {
+  const SessionPlaylist({Key? key}) : super(key: key);
 
   @override
-  State<Layout1> createState() => _Layout1State();
+  State<SessionPlaylist> createState() => _SessionPlaylistState();
 }
 
-class _Layout1State extends State<Layout1> {
+class _SessionPlaylistState extends State<SessionPlaylist> {
   List<Session> sessions = [
     Session('Sweet Memories', Colors.blue),
     Session('A Day Dream', const Color.fromRGBO(3, 158, 162, 1)),

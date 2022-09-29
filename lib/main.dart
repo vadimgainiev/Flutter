@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practice1_layouts/layout1.dart';
-import 'package:practice1_layouts/layout2.dart';
-import 'package:practice1_layouts/layout3.dart';
+import 'package:practice1_layouts/Session_Playlist.dart';
+import 'package:practice1_layouts/Search_Recommendations.dart';
+import 'package:practice1_layouts/Authorization_Screen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -10,9 +10,11 @@ void main() {
       initialRoute: '/',
       routes: {
         '/': (BuildContext context) => const HomePage(),
-        '/layout1': (BuildContext context) => const Layout1(),
-        '/layout2': (BuildContext context) => const Layout2(),
-        '/layout3': (BuildContext context) => const Layout3(),
+        '/Session_Playlist': (BuildContext context) => const SessionPlaylist(),
+        '/Search_Recommendations': (BuildContext context) =>
+            const SearchRecommendations(),
+        '/Authorization_Screen': (BuildContext context) =>
+            const AuthorizationScreen(),
       }));
 }
 
@@ -41,7 +43,7 @@ class HomePage extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, '/layout1');
+                        Navigator.pushNamed(context, '/Session_Playlist');
                       },
                       style: ButtonStyle(
                           shape:
@@ -66,7 +68,7 @@ class HomePage extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, '/layout2');
+                        Navigator.pushNamed(context, '/Search_Recommendations');
                       },
                       style: ButtonStyle(
                         shape:
@@ -91,7 +93,7 @@ class HomePage extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, '/layout3');
+                        Navigator.pushNamed(context, '/Authorization_Screen');
                       },
                       style: ButtonStyle(
                         shape:
